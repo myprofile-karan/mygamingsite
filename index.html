@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.gaming.com</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="top">
+        <div class="container-fluid">
+          <a class="navbar-brand animate__animated  animate__backInLeft" href="#">G-WORLD</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa-solid fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown" data-aos="fade-left">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="#platforms">PALTFORMS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="#collections">COLLECTIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#blogs">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contacts">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" onclick="myfun()" style="cursor: pointer;">
+                  LOGIN
+                  <i class="fa fa-arrow-down"></i>
+                </a>
+                <!-- login form start -->
+                <div class="form" id="myform">
+                 <form onsubmit="return login()" class="p-3">
+                    <i class="fa-solid fa-xmark" onclick="closefun()"></i>
+                    <span>Login</span>
+                    <input type="text" id="lname" placeholder="Username" required>
+                    <input type="password" id="lpass" placeholder="Password" required><br>
+                    <button type="submit">Login</button>
+                  </form>
+                  <form onsubmit="return signup()" class="p-3">
+                    <span>Sign in</span>
+                    <input type="text" id="sName" placeholder="Username" required>
+                    <input type="email" id="sEmail" placeholder="Email" required>
+                    <input type="password" id="sPass" placeholder="Password" required>
+                    <input type="text" id="sNum" placeholder="Phone Number" required><br>
+                    <button type="submit">SIgn up</button>
+                  </form>
+                </div> 
+                <!-- login form end -->
+                <!-- <ul class="dropdown-menu text-white">
+                  <li><a class="dropdown-item text-white" href="#">posts</a></li>
+                  <li><a class="dropdown-item text-white" href="#">blogs</a></li>
+                  <li><a class="dropdown-item" href="#">news and posts</a></li>
+                </ul>  -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAVBAR END -->
+
+      
+    <div class="container-fluid attach">
+        <!-- SECTION HOME START -->
+
+        <div class="container-fluid home">
+        </div>
+
+        <!-- SECTION HOME END -->
+
+        <!-- SECTION DOWNLOAD START -->
+
+        <div class="container-lg" id="platforms">
+            <div class="row py-5 align-items-center download">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-white" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 data-aos="fade-up">Choose from 10000+ Games to Download</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 d-flex" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="/img/asset 5.jpeg" class="img img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION DOWNLOAD END -->
+
+        <!-- SECTION IMAGE START -->
+
+        <div class="container-fluid py-5">
+            <div class="row" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="500">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 img1">
+                    <span>PC</span>
+                    <img src="/img/asset 7.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 img2">
+                    <span>PLAYSTATION</span>
+                    <img src="/img/asset 9.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 img3">
+                    <span>XBOX</span>
+                    <img src="/img/asset 11.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 img4">
+                    <span>WII</span>
+                    <img src="/img/asset 13.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <!-- SECTION IMAGE END -->
+
+        <!-- SECTION COLLECION START -->
+
+        <div class="container-fluid" id="collections">
+          <div class="container mt-5 py-5 zero">
+            <h1 class="text-white text-center" data-aos="fade-up">collection</h1>
+            <div class="row collection mt-5 py-3" data-aos="fade-up">
+                <div class="col-3 selected"><a href="">POPULAR</a></div>
+                <div class="col-3"><a href="">NEW ARRIVALS</a></div>
+                <div class="col-3"><a href="">BEST SELLERS</a></div>
+                <div class="col-3"><a href="">EDITOR'S PACK</a></div>
+            </div>
+          </div>
+
+          <div class="row py-5 zero" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <div class="carousel p-0">
+            <div class="owl-carousel p-0">
+              <div class="item">
+                <img src="/img/asset 14.jpeg" alt="">
+                <div class="content">
+                  <h4>Forza Horizon 3</h4>  
+                  <p>2 Millions+ Downloads</p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  </div>
+                  <button>Download</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/img/asset 15.jpeg" alt="">
+                <div class="content">
+                  <h4>Fallout 4</h4>
+                  <p>1 Millions+ Downloads</p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                  </div>
+                  <button>Download</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/img/asset 16.jpeg" alt="">
+                <div class="content">
+                  <h4>Mass Effect 4</h4>
+                  <p>900000+ Downloads</p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                  </div>
+                  <button>Download</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/img/asset 17.jpeg" alt="">
+                <div class="content">
+                  <h4>The Division</h4>
+                  <p>874000+ Downloads</p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <button>Download</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/img/asset 18.jpeg" alt="">
+                <div class="content">
+                  <h4>Assassin's Creed III</h4>
+                  <p>997000+ Downloads</p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                  </div>
+                  <button>Download</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/img/asset 19.jpeg" alt="">
+                <div class="content">
+                  <h4>The Elder Scrolls</h4>
+                  <p>688000+ Downloads</p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                  </div>
+                  <button>Download</button>
+                </div></div>
+              <div class="item">
+                <img src="/img/asset 20.jpeg" alt="">
+                <div class="content">
+                  <h4>Watch Dogs</h4>
+                  <p>598000+ Downloads</p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <button>Download</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/img/asset 21.jpeg" alt="">
+                <div class="content">
+                  <h4>Titanfall</h4>
+                  <p>800000+ Downloads</p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <button>Download</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/img/asset 22.jpeg" alt="">
+                <div class="content">
+                  <h4>The witcher 3</h4>
+                  <p>950000+ Downloads</p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                  </div>
+                  <button>Download</button>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/img/asset 23.jpeg" alt="">
+                <div class="content">
+                  <h4>Battlefield</h4>
+                  <p>1 Million+ Downloads</p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <button>Download</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <!-- SECTION COLLECION END -->
+    </div>    
+
+    <!-- SECTION BLOG START -->
+
+    <div class="container-fluid p-0 attach2">
+      <div class="container-fluid px-0 pt-5 bg-dark" id="blogs">
+        <h1 class="text-white text-center" data-aos="fade-up">Latest Blog & News</h1>
+        <div class="row blog py-5 gy-5 m-0" data-aos="fade-up" data-aos-duration="3000">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <img src="/img/asset 54.jpeg" alt="">
+            <div class="content2">
+              <h6>10-10-2016</h6>
+              <h5>NVIDIA TITAN X</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <button>READ MORE<i class="fa fa-arrow-right ms-2"></i></button>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <img src="/img/asset 55.jpeg" alt="">
+            <div class="content2">
+              <h6>15-10-2016</h6>
+              <h5>PS4 VR HEADSET</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <button>READ MORE<i class="fa fa-arrow-right ms-2"></i></button>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <img src="/img/asset 56.jpeg" alt="">
+            <div class="content2">
+              <h6>20-11-2016</h6>
+              <h5>ACCESSORIES FOR XBOX</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <button>READ MORE<i class="fa fa-arrow-right ms-2"></i></button>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <img src="/img/asset 57.jpeg" alt="">
+            <div class="content2">
+              <h6>12-09-2016</h6>
+              <h5>NEW SUPER MARIO BROS!</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+              <button>READ MORE<i class="fa fa-arrow-right ms-2"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION BLOG END -->
+
+        <!-- SECTION PORTFOLIO START -->
+
+        <div class="container-fluid p-0 mt-5" id="portfolio">
+          <h1 class="text-center text-white" data-aos="fade-up">Portfolio</h1>
+          <div class="row pt-4 port p-0" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 14.jpeg" alt="">
+              <div class="upper"></div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 44.jpeg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 45.jpeg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 46.jpeg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 47.jpeg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 52.jpeg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 41.jpeg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 39.jpeg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 23.jpeg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 25.jpeg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 26.jpeg" alt="">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 p-0">
+              <img src="/img/asset 27.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+          
+        <!-- SECTION PORTFOLIO END -->
+      </div>
+
+      <!-- SECTION INFO START -->
+
+      <div class="container py-5"  data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+        <div class="row info gy-5">
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+            <img src="/img/asset 58.png" alt="">
+            <h1>10000</h1>
+            <span>Games</span>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+            <img src="/img/asset 59.png" alt="">
+            <h1>1657033000</h1>
+            <span>Downloads</span>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+            <img src="/img/asset 60.png" alt="">
+            <h1>192000</h1>
+            <span>Followers</span>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+            <img src="/img/asset 61.png" alt="">
+            <h1>71600</h1>
+            <span>Online Games</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION INFO END -->
+
+    </div>
+
+    <!-- SECTION LOGOS START -->
+
+    <div class="container-fluid"  data-aos="fade-up" data-aos-duration="500">
+      <div class="row">
+          <div class="owl-carousel p-0">
+              <div class="item">
+                <img src="/img/asset 62.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 63.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 64.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 65.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 66.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 67.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 68.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 69.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 70.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 71.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 72.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 73.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 74.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 75.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 76.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 77.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 78.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 79.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 80.jpeg" alt="">
+              </div>           
+              <div class="item">
+                <img src="/img/asset 81.jpeg" alt="">
+              </div>           
+          </div>   
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="row py-5 search">
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+            <span>Subscribe to our Newsletter</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+            <input type="email" placeholder="Email Address">
+            <button type="butt">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION LOGOS END -->
+
+    <!-- SECTION FORM START -->
+
+    <div class="container-fluid attach">
+      <div class="container-lg py-5 zero">
+        <h1 class="text-center text-white py-5" data-aos="fade-up">Write to Us</h1>
+        <div class="row text" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <input type="text" class="form-control" placeholder="FIRST NAME">
+            <input type="text"  placeholder="LAST NAME">
+            <input type="email"  placeholder="EMAIL">
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 d-grid">
+            <textarea name="" id="" cols="65" rows="8" placeholder="MESSAGE"></textarea>
+            <button type="button">SEND</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION FORM END -->
+
+    <div class="container-fluid py-5 bg-dark" id="contacts">
+      <div class="container-lg">
+        <div class="row links gy-5" data-aos="fade-up" data-aos-duration="1500">
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <h5>INFORMATION</h5>
+            <a href="">SPECIALS</a>
+            <a href="">NEW PRODUCTS</a>
+            <a href="">TOP SELLERS</a>
+            <a href="">BLOGS</a>
+            <a href="">REVIEWS</a>
+            <a href="">NEWS</a>
+          </div>
+
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <h5>CATEGORIES</h5>
+            <a href="">GAME GENRES</a>
+            <a href="">PC GAMES</a>
+            <a href="">PLASTATION GAMES</a>
+            <a href="">XBOX GAMES</a>
+            <a href="">WII GAMES</a>
+            <a href="">ALL GAMES</a>
+          </div>
+
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <h5>MY ACCOUNT</h5>
+            <a href="">MY ACCOUNT</a>
+            <a href="">MY ORDERS</a>
+            <a href="">MY DOWNLOADS</a>
+            <a href="">EDIT PROFILE</a>
+            <a href="">CHANGE PASSWORD</a>
+            <a href="">DONATE</a>
+          </div>
+
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <h5>CONTACT</h5>
+            <address>
+              40019 S.p.A<br>
+              Parma Via Modena<br>
+              Sant'Agata Bolognese<br>
+              BO, Italy<br>
+              +1 (734) 123-4567<br>
+              info@example.com<br>
+            </address>
+          </div>
+        </div><hr class="text-white mt-4">
+
+        <div class="row" data-aos="zoom-in" data-aos-duration="1500">
+          <div class="col-12 col-sm-12 col-md-8 col-lg-9 text-center">
+              <span class="text-white"> &copy; 2020 Gaming World. All Rights Reserved | Design by W3layouts</span>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+            <div class="fonts">
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+                <a href=""><i class="fab fa-google-plus-square"></i></a>
+                <a href=""><i class="fab fa-instagram-square"></i></a>
+                <a href=""><i class="fab fa-youtube-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#top"><img src="/img/asset 82.png" class="fixedimg" id="imgfixed" alt=""></a>
+
+
+ <script src="js/bootstrap.min.js"></script>   
+ <script src="jquery.min.js"></script>
+ <script src="owl.carousel.min.js"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+ $(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });
+
+  $('.owl-carousel').owlCarousel({
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        500:{
+          items:3,
+          nav:true
+        },
+        750:{
+            items:4,
+            nav:true
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
+  var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:5,
+    loop:true,
+    margin:0,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true
+});
+
+
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+
+
+
+var form = document.getElementById("myform");
+var close = document.getElementById("close");
+
+function myfun(){
+  form.classList.toggle("active"); 
+}
+
+function closefun(){
+  form.classList.remove("active")
+}
+
+  AOS.init();
+
+function signup() {
+  let sName = document.getElementById("sName").value;
+  let sEmail = document.getElementById("sEmail").value;
+  let sPass = document.getElementById("sPass").value;
+  let sNum = document.getElementById("sNum").value;
+
+  if(!sName == "" && !sEmail == "" && !sPass == "" && !sNum == ""){
+    localStorage.setItem("name",sName);
+    localStorage.setItem("email",sEmail);
+    localStorage.setItem("password",sPass);
+    localStorage.setItem("number",sNum);
+     return true;
+  }else{
+    alert("something went wrong");
+    return false
+  }
+}
+
+function login() {
+  let lName = document.getElementById("lname").value;
+  let lPass = document.getElementById("lpass").value;
+
+  if(lName == localStorage.getItem("name") && lPass == localStorage.getItem("password")){
+    Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Your work has been saved',
+    showConfirmButton: false,
+    timer: 1500
+  });
+  return true;
+  }else{
+    alert("Login failed");
+    return false
+  }
+}
+
+</script>
+</body>
+</html>
