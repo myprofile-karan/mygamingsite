@@ -154,7 +154,7 @@ body{
 }
 .attach{
     padding: 0;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./img/asset/24.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/asset/24.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -189,12 +189,12 @@ body{
         background-position: center;
     }
     75%{
-        background: url(/img/asset\ 3.jpeg);
+        background: url(../img/asset\ 3.jpeg);
         background-size: cover;
         background-position: center;
     }
     100%{
-        background: url(/img/asset\ 4.jpeg);
+        background: url(../img/asset\ 4.jpeg);
         background-size: cover;
         background-position: center;
     }
@@ -228,7 +228,7 @@ body{
     height: 400px;
 }
 .img1{
-    background: url(/img/asset\ 6.jpeg);
+    background: url(../img/asset\ 6.jpeg);
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -275,7 +275,7 @@ body{
     right: 30%;
 }
 .img2{
-    background: url(/img/asset\ 8.jpeg);
+    background: url(../img/asset\ 8.jpeg);
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -323,7 +323,7 @@ body{
 }
 
 .img3{
-    background: url(/img/asset\ 10.jpeg);
+    background: url(../img/asset\ 10.jpeg);
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -371,7 +371,7 @@ body{
 }
 
 .img4{
-    background: url(/img/asset\ 12.jpeg);
+    background: url(../img/asset\ 12.jpeg);
     background-position: center;
     background-size: cover;
     height: 200px;
@@ -479,7 +479,7 @@ body{
     color: grey;
 }
 .attach2{
-    background: url(/img/asset\ 84.jpeg);
+    background: url(../img/asset\ 84.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
